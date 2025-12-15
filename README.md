@@ -1,0 +1,2 @@
+# wiseuc-notice-uploadify-update
+局域网即时通讯汇讯WiseUC_Client_Ent_5.1通知公告系统uploadify附件上传功能升级，使得windows客户端无需安装adobe flash player
