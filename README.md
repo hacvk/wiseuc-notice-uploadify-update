@@ -1,6 +1,12 @@
 # wiseuc-notice-uploadify-update
 局域网即时通讯汇讯WiseUC_Client_Ent_5.1通知公告系统uploadify附件上传功能升级，使得windows客户端无需安装adobe flash player
 
+原本尝试过升级成：UploadiFive ，但是客户端内嵌的浏览器不支持html5
+
+##主要修改了两个文件：
+\notice\app\views\notice\index.php
+\notice\www\misc\js\notice.js
+
 改用兼容 HTML4 的 iframe 上传方案，替换 uploadify：
 改用项目中已有的 `ajaxfileupload.js`（iframe 方式，兼容 HTML4）：
 改用更简单直接的方式：用户选择文件后立即通过 iframe 上传。
